@@ -51,13 +51,14 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
 
 /* FOCUS-STYLES  */
 *:focus {
-  outline: 0.3rem dashed var(--black);
+  outline: 0.3rem dashed $white;
   outline-offset: 0.3rem;
 }
 
