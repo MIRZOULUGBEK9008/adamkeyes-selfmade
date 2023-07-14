@@ -1,3 +1,28 @@
+/* FONTS */
+@font-face {
+  font-display: swap;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-grotesk-v15-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/space-grotesk-v15-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-grotesk-v15-latin-700.woff2') format('woff2');
+}
+
 /* GLOBAL-STYLES  */
 html {
   font-size: 62.5%;
@@ -18,9 +43,9 @@ body {
   height: 100%;
   background-color: var(--white);
   color: var(--black);
-  font-family: "Arial", sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5;
+  font-family: "Space Grotesk", "Arial", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.55;
   padding: 0;
   margin: 0;
 }
@@ -38,7 +63,7 @@ img {
 
 /* CONTAINER  */
 .container {
-  max-width: 120rem;
+  max-width: 115rem;
   width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
