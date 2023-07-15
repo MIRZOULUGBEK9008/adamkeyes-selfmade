@@ -25,39 +25,63 @@
     </div>
 
     <!-- HEADER START -->
-    <header class="site-header">
-        <div class="site-header__container container">
-            <!-- SITE-LOGO -->
-            <a class="site-header__logo logo" href="index.html">
-                <img class="logo__img" src="images/site-logo.svg" alt="Site logo" width="172" height="32">
-            </a>
+    <div class="site-hero-header-wrapper">
+        <div class="site-hero-header-wrapper__container container">
+            <header class="site-header">
+                <div class="site-header__container">
+                    <!-- SITE-LOGO -->
+                    <a class="site-header__logo logo" href="index.html">
+                        <img class="logo__img" src="images/site-logo.svg" alt="Site logo" width="172" height="32">
+                    </a>
+                    <ul class="site-header__social social">
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="images/social/github-icon.svg" alt="GitHub icon" width="25" height="24">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="images/social/frontendmentor-icon.svg" alt="Frontendmentor icon" width="25" height="24">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="images/social/linkedin-icon.svg" alt="LinkedIn icon" width="25" height="24">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="images/social/twitter-icon.svg" alt="Twitter icon" width="25" height="24">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <!-- HEADER END -->
+            <!-- HERO START  -->
+            <div class="hero">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1 class="hero__title heading heading-xl">Nice to<br class="br"> meet you! I’m <span>Adam Keyes</span>.</h1>
+                        <p class="hero__description">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+                        <a class="hero__button button button--green" href="#contact">Contact me</a>
+                    </div>
+                    <picture>
+
+                        <source media="(max-width: 600px)" srcset="images/home-hero-img-mobile.png 1x, images/home-hero-img-mobile.png 2x" type="image/png">
+
+                        <source media="(max-width: 1100px)" srcset="images/home-hero-img-tablet.png 1x, images/home-hero-img-tablet.png 2x" type="image/png">
 
 
-            <ul class="social">
-                <li class="social__item">
-                    <a class="social__link" href="#" target="_blank">
-                        <img src="images/social/github-icon.svg" alt="GitHub icon" width="25" height="24">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#" target="_blank">
-                        <img src="images/social/frontendmentor-icon.svg" alt="Frontendmentor icon" width="25" height="24">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#" target="_blank">
-                        <img src="images/social/linkedin-icon.svg" alt="LinkedIn icon" width="25" height="24">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#" target="_blank">
-                        <img src="images/social/twitter-icon.svg" alt="Twitter icon" width="25" height="24">
-                    </a>
-                </li>
-            </ul>
+                        <img class="hero__img" src="images/home-hero-img-desktop.png" alt="Adam Keyes" width="509" height="720" srcset="images/home-hero-img-desktop.png 1x, images/home-hero-img-desktop.png 2x">
+                    </picture>
+
+                    <img class="home-hero-oval" src="images/home-hero-oval.svg" alt="" aria-hidden="true">
+                </div>
+            </div>
         </div>
-    </header>
-    <!-- HEADER END -->
+    </div>
+    <!-- HERO END  -->
 
     <!-- MAIN START-->
     <main class="main-content"></main>

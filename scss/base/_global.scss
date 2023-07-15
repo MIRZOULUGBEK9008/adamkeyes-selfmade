@@ -48,6 +48,9 @@ body {
   line-height: 1.55;
   padding: 0;
   margin: 0;
+  @media only screen and (max-width: 800px) {
+    font-size: 1.6rem;
+  }
 }
 
 img {
