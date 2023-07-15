@@ -27,13 +27,13 @@
     <!-- HEADER START -->
     <div class="site-hero-header-wrapper" style="display: none;">
         <div class="site-hero-header-wrapper__container container">
-            <header class="site-header">
-                <div class="site-header__container">
+            <header class="site-header-footer">
+                <div class="site-header-footer__container">
                     <!-- SITE-LOGO -->
-                    <a class="site-header__logo logo" href="index.html">
+                    <a class="site-header-footer__logo logo" href="index.html">
                         <img class="logo__img" src="images/site-logo.svg" alt="Site logo" width="172" height="32">
                     </a>
-                    <ul class="site-header__social social">
+                    <ul class="site-header-footer__social social">
                         <li class="social__item">
                             <a class="social__link" href="#" target="_blank">
                                 <img src="images/social/github-icon.svg" alt="GitHub icon" width="25" height="24">
@@ -119,7 +119,7 @@
         </section>
 
         <!-- SECTION PROJECTS  -->
-        <section class="section-project">
+        <section class="section-project" style="display: none;">
             <div class="section-project__container container">
                 <div class="section-project__top">
                     <h2 class="section-project__title heading-xl">Projects</h2>
@@ -229,13 +229,59 @@
                 </ul>
             </div>
         </section>
-
-
     </main>
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="site-footer"></footer>
+    <footer class="site-footer">
+        <div class="site-footer__container container">
+            <div class="site-footer__content">
+                <h2 class="site-footer__title heading-xl">Contact</h2>
+                <p class="site-footer__description">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+            </div>
+            <form class="site-footer__form footer-form" action="https://echo.htmlacademy.ru" method="post" target="_blank">
+                <div class="footer-form__wrapper">
+                    <div class="footer-form__inner">
+                        <input class="footer-form__input" type="text" name="name" placeholder="NAME" required>
+                        <input class="footer-form__input" type="email" name="email" placeholder="EMAIL" required>
+                        <textarea class="footer-form__textarea" name="message" placeholder="MESSAGE" required></textarea>
+                    </div>
+                    <button class="footer-form__button button" type="submit">Send message</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="site-header-footer">
+            <div class="site-header-footer__container site-header-footer__container--borders container">
+                <!-- SITE-LOGO -->
+                <a class="site-header-footer__logo logo" href="index.html">
+                    <img class="logo__img" src="images/site-logo.svg" alt="Site logo" width="172" height="32">
+                </a>
+                <ul class="site-header-footer__social social">
+                    <li class="social__item">
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="images/social/github-icon.svg" alt="GitHub icon" width="25" height="24">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="images/social/frontendmentor-icon.svg" alt="Frontendmentor icon" width="25" height="24">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="images/social/linkedin-icon.svg" alt="LinkedIn icon" width="25" height="24">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="images/social/twitter-icon.svg" alt="Twitter icon" width="25" height="24">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <!-- FOOTER END -->
 
 

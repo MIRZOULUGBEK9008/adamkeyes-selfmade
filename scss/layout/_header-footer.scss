@@ -3,6 +3,11 @@
   align-items: center;
   padding-top: 3.9rem;
   padding-bottom: 3.9rem;
+  &--borders {
+    padding-top: 4.7rem;
+    border-top: 1px solid $white;
+
+  }
   @media only screen and (max-width: 768px) {
     padding-top: 2.9rem;
     padding-bottom: 2.9rem;
